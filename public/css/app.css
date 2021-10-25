@@ -1,0 +1,74 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #000000 url(../img/Wallpaper2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-bakground-size: cover;
+    -webkit-background-size:cover;
+    transition: .3s;
+
+}
+
+.dark{
+    font-family: 'Roboto', sans-serif;
+    background: #000000 url(../img/Wallpaper3.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-bakground-size: cover;
+    -webkit-background-size:cover;
+    transition: .3s ease all;
+}
+
+#title{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#carta{
+    width: 550px;
+    transition: .3s ease all;
+}
+
+body.dark #carta{
+    width: 550px;
+    background-color: #2c2c2c;
+    color: rgb(214, 214, 214);
+    transition: .3s ease all;
+}
+
+
+
+
+#divider{
+    color: #3f9ea2;
+    position: relative;
+    height: 2px;
+}
+#container
+{
+    height: 100vh;
+}
+
+#icon1{
+    width: 25px;
+    height: 25px;
+}
+
+
+#boton{
+    background-color: #3f9ea2;
+    color: white;
+    border-color: #358588;
+}
+
+
+
+img{
+    max-width: 350px;
+    max-height: 350px;
+    border-width: 5px;
+    border-radius: 5%;
+
+}
+
