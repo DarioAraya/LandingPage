@@ -10,6 +10,10 @@ body {
 
 }
 
+.titulos{
+    margin-top: 30px;
+}
+
 .dark{
     font-family: 'Roboto', sans-serif;
     background: #000000 url(../img/Wallpaper3.png) no-repeat center center fixed;
@@ -38,6 +42,13 @@ body.dark #carta{
 }
 
 
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
 
 
 #divider{
@@ -45,10 +56,7 @@ body.dark #carta{
     position: relative;
     height: 2px;
 }
-#container
-{
-    height: 100vh;
-}
+
 
 #icon1{
     width: 25px;
@@ -72,3 +80,152 @@ img{
 
 }
 
+
+
+#perfil{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 991px){
+
+    #location{
+        font-size: 17px;
+    }
+
+    #title{
+        font-size: 19px;
+        font-weight: 600;
+    }
+
+    #nombre{
+        font-size: 24px;
+    }
+
+    #carta{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        transition: .3s ease all;
+    }
+   
+   #fotoPerfil{
+       width: 200px;
+       align-items: center;
+   }
+    .titulos{
+        text-align: center;
+
+    }
+
+    
+
+    .texto{
+        margin-top: 15px;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .texto2{
+        margin-top: 10px;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    #boton{
+     margin-top: 5px;
+    }
+
+    .center{
+        flex-wrap: wrap;
+    }
+
+    #fotoPerfil{
+        margin-top: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+       
+      
+    }
+
+    #perfil{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #boton{
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 500px){
+
+    #location{
+        font-size: 13px;
+    }
+
+    #title{
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    #nombre{
+        font-size: 20px;
+    }
+
+    #carta{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        transition: .3s ease all;
+    }
+   
+   #fotoPerfil{
+       width: 200px;
+       align-items: center;
+   }
+    .titulos{
+        text-align: center;
+
+    }
+
+    .perfil{
+        width: 500px;
+        
+    }
+
+    .texto{
+        margin-top: 15px;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .texto2{
+        margin-top: 10px;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    #boton{
+     margin-top: 5px;
+    }
+
+    #fotoPerfil{
+        margin-top: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      
+    }
+
+    #boton{
+        font-size: 13px;
+    }
+}

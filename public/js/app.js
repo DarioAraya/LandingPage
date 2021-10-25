@@ -1,5 +1,6 @@
 const btnSwitch = document.querySelector('#switch');
-const btnPortafolio = document.querySelector('#portafolio')
+const btnPortafolio = document.querySelector('#portafolio');
+const fotoPerfil = document.querySelector('#fotoPerfil');
 
 btnSwitch.addEventListener('click', () => {
     document.body.classList.toggle('dark');
@@ -16,3 +17,9 @@ btnSwitch.addEventListener('click', () => {
         btnPortafolio.classList.remove('btn-outline-light');
     }
 });
+
+const mq = window.matchMedia( "(max-width: 992px)" );
+
+if (mq.matches) {
+    fotoPerfil.src='/img/foto-perfil2.png';
+} 
